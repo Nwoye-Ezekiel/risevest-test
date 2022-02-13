@@ -1,0 +1,15 @@
+.supported-by-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transform: scale(0.75);
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .supported-by-container {
+    margin: 120px 0 70px;
+    transform: scale(1);
+  }
+}

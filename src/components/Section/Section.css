@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 .section-content {
   position: relative;
@@ -29,6 +29,10 @@
 .section-content p:last-child {
   font-family: "TomatoGrotesk-m";
   color: var(--color-primary);
+  margin-right: 15px;
+}
+.section-content p:last-child img {
+  margin-left: 15px;
 }
 .section-image {
   position: relative;
@@ -61,7 +65,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
   .section-image {
     display: flex;

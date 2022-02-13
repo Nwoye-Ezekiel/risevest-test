@@ -1,0 +1,94 @@
+.CTA-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-blue-light);
+  border-radius: 50px;
+  padding: 70px 20px 0;
+  margin: 0px 30px 30px;
+  max-width: 1100px;
+  overflow-y: hidden;
+}
+.CTA-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CTA-container h5 {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.CTA-container h3 {
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--color-black1);
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+
+.CTA-container p {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-black2);
+  margin-bottom: 27px;
+}
+
+.CTA-image {
+  margin-bottom: -300px;
+}
+
+.CTA-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+
+.CTA-buttons-container img {
+  margin: 3px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .CTA-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px;
+    margin: 0px AUTO 70px;
+  }
+  .CTA-content {
+    align-items: flex-start;
+    text-align: start;
+    width: 60%;
+    margin-right: 30px;
+  }
+  .CTA-buttons-container img {
+    margin: 0;
+    margin-right: 16px;
+  }
+  .CTA-container h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .CTA-container h3 {
+    font-size: 32px;
+    max-width: 550px;
+  }
+  .CTA-container p {
+    font-size: 18px;
+  }
+  .CTA-image {
+    transform: scale(1.2);
+    margin-bottom: -150px;
+    margin-right: 7%;
+  }
+}

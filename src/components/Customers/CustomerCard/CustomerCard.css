@@ -1,0 +1,12 @@
+.customer-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 345px;
+  height: 248px;
+  background: #ffffff;
+  box-shadow: 0px 12px 24px rgb(64 187 195 / 15%);
+  border-radius: 10px;
+}

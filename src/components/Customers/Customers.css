@@ -1,0 +1,17 @@
+.customers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    border: rgb(43, 255, 0) solid;
+    text-align: center;
+}
+.customers-card-container{
+    overflow-x: scroll;
+    display: inline-block;
+    border: red solid;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 70px 30px;
+}
