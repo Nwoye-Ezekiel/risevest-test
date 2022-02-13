@@ -9,13 +9,16 @@
   margin-left: auto;
   margin-right: auto;
 }
+.logo{
+  cursor: pointer;
+}
 .mobile-links-header {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 22px 20px;
 }
 .mobile-links {
   position: fixed;

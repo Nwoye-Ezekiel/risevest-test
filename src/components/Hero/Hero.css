@@ -39,6 +39,7 @@
 
 .hero-buttons img {
   margin: 0 8px;
+  cursor: pointer;
 }
 
 .hero-image {
