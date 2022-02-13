@@ -9,7 +9,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-.logo{
+.logo {
   cursor: pointer;
 }
 .mobile-links-header {
@@ -47,6 +47,10 @@
 .mobile-link:hover,
 .mobile-sub-link:hover {
   background: var(--color-blue-light);
+}
+.hamburger,
+.close-mobile-nav {
+  cursor: pointer;
 }
 .close-mobile-nav {
   position: relative;

@@ -1,13 +1,16 @@
 import React from "react";
 import "./CustomerCard.css";
 
-export default function CustomerCard({ children, src, name }) {
+export default function CustomerCard({ children, src, name, role = null }) {
   return (
     <div className="customer-card-container">
-      <p>{children}</p>
-      <div>
+      <p className="customer-comment">{children}</p>
+      <div className="customer-info">
         <img src={src} alt="" />
-        <span>{name}</span>
+        <div className="customer-details">
+          <p>{name}</p>
+          <p>{role}</p>
+        </div>
       </div>
     </div>
   );

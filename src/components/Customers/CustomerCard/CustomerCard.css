@@ -1,12 +1,69 @@
 .customer-card-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 24px;
-  width: 345px;
-  height: 248px;
   background: #ffffff;
+  width: 100%;
+  max-width: 400px;
   box-shadow: 0px 12px 24px rgb(64 187 195 / 15%);
   border-radius: 10px;
+  margin: 20px 0;
+}
+.customer-comment {
+  font-family: "DM Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-black2);
+}
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.customer-details p:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--color-black1);
+}
+.customer-details p:last-child {
+  font-family: "DM Sans";
+  font-size: 14px;
+  color: var(--color-black2);
+}
+@media screen and (min-width: 768px) {
+  .customer-card-container {
+    margin: 20px 10px;
+    justify-content: space-between;
+  }
+  .customer-comment {
+  text-align: flex-start;
+}
+  .customer-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+  .customer-info img {
+    width: 40px;
+  }
+  .customer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .customer-card-container {
+    height: 280px;
+  }
+  .customer-info {
+    margin-top: 0;
+  }
+  .customer-info img {
+    width: 50px;
+  }
 }

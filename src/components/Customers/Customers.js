@@ -8,22 +8,22 @@ export default function Customers() {
   return (
     <div className="customers-container">
       <h1>From The People Who Use Rise</h1>
-      <p>
+      <p className="mission-statement">
         Our mission at Risevest is to empower more people just like you to
         achieve your personal financial goals.
       </p>
       <div className="customers-card-container">
-        <CustomerCard name="Lade" src={Woman}>
+        <CustomerCard name="Lade" src={Woman} role="UX Researcher">
           I don’t want to invest in separate stocks because I’m not a financial
           expert and I would rather trust my money in the hands of people like
           Rise who are skilled and knowledgeable.
         </CustomerCard>
-        <CustomerCard name="Jesse" src={Woman}>
+        <CustomerCard name="Jesse" src={Woman} role="UX Researcher">
           I don’t want to invest in separate stocks because I’m not a financial
           expert and I would rather trust my money in the hands of people like
           Rise who are skilled and knowledgeable.
         </CustomerCard>
-        <CustomerCard name="Raye" src={Man}>
+        <CustomerCard name="Raye" src={Man} role="UX Researcher">
           I chose Rise because of its leadership, wealth of knowledge and the
           people who support them. I invest with Rise in order to protect my
           savings and investment from being depleted by devaluation and
