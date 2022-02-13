@@ -50,6 +50,7 @@
   border-radius: 5px;
   color: white;
 }
+
 @media screen and (min-width: 768px) {
   .future-container {
     flex-direction: row;
@@ -60,7 +61,6 @@
     text-align: left;
     width: 50%;
   }
-
   .future-image {
     display: flex;
     width: 50%;

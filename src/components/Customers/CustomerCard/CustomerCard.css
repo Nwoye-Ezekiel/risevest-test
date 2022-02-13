@@ -33,14 +33,15 @@
   font-size: 14px;
   color: var(--color-black2);
 }
+
 @media screen and (min-width: 768px) {
   .customer-card-container {
     margin: 20px 10px;
     justify-content: space-between;
   }
   .customer-comment {
-  text-align: flex-start;
-}
+    text-align: flex-start;
+  }
   .customer-info {
     flex-direction: row;
     align-items: center;
@@ -56,6 +57,7 @@
     margin-left: 20px;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .customer-card-container {
     height: 280px;

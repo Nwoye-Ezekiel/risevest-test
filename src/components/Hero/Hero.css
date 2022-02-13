@@ -8,7 +8,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -17,14 +16,12 @@
   margin-bottom: 60px;
   max-width: 450px;
 }
-
 .hero-content h2 {
   font-size: 40px;
   text-align: center;
   color: var(--color-primary);
   margin-bottom: 32px;
 }
-
 .hero-content p {
   font-family: "DM Sans";
   font-size: 16px;
@@ -32,20 +29,16 @@
   color: var(--color-black2);
   margin-bottom: 32px;
 }
-
 .hero-buttons {
   margin-bottom: 40px;
 }
-
 .hero-buttons img {
   margin: 0 8px;
   cursor: pointer;
 }
-
 .hero-image {
   animation: none;
 }
-
 .hero-image img {
   width: 250px;
   transform: scale(1.2);
@@ -94,6 +87,7 @@
     margin-right: 16px;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .hero-content h2 {
     font-size: 56px;

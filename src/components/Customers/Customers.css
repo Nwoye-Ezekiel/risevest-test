@@ -34,7 +34,7 @@
   .customers-card-container {
     flex-direction: row;
   }
-  .customers-container{
+  .customers-container {
     padding: 100px 20px 30px;
   }
   .customers-container h1 {

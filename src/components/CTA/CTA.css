@@ -17,7 +17,6 @@
   align-items: center;
   text-align: center;
 }
-
 .CTA-container h5 {
   font-size: 16px;
   line-height: 24px;
@@ -25,7 +24,6 @@
   margin-bottom: 20px;
   font-weight: 500;
 }
-
 .CTA-container h3 {
   font-size: 20px;
   line-height: 120%;
@@ -33,7 +31,6 @@
   margin-bottom: 20px;
   max-width: 450px;
 }
-
 .CTA-container p {
   font-family: "DM Sans";
   font-size: 16px;
@@ -42,18 +39,15 @@
   color: var(--color-black2);
   margin-bottom: 27px;
 }
-
 .CTA-image {
   margin-bottom: -300px;
 }
-
 .CTA-buttons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 27px;
 }
-
 .CTA-buttons-container img {
   margin: 3px 8px;
   cursor: pointer;

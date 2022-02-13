@@ -1,20 +1,18 @@
 :root {
   --color-primary: #07969e;
-  --color-primary-light: #40BBC3;
+  --color-primary-light: #40bbc3;
   --color-blue: #a0dde2;
   --color-blue-light: #ecfefe;
   --color-black1: #2d2d2d;
   --color-black2: #4a5050;
   --color-black3: #919fb5;
-  --color-indigo: #8C5FF8;
+  --color-indigo: #8c5ff8;
 }
-
 * {
   border: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 @font-face {
   font-family: "TomatoGrotesk-r";
   src: url("./fonts/TomatoGrotesk-Regular.otf");
@@ -27,13 +25,11 @@
   font-family: "TomatoGrotesk-b";
   src: url("./fonts/TomatoGrotesk-Bold.otf");
 }
-
 html,
 body {
   width: 100%;
   min-height: 100vh;
 }
-
 body {
   position: relative;
   font-family: "TomatoGrotesk-r";

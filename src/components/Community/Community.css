@@ -32,6 +32,7 @@
   margin-bottom: 25px;
   line-height: 24px;
 }
+
 @media screen and (min-width: 768px) {
   .community-container {
     flex-direction: row-reverse;
@@ -42,7 +43,6 @@
     text-align: left;
     width: 50%;
   }
-
   .community-image {
     display: flex;
     width: 50%;
