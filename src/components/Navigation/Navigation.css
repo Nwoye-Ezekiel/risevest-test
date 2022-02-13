@@ -1,13 +1,72 @@
 .navigation-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   color: var(--color-primary);
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
-  
+}
+.mobile-links-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.mobile-links {
+  position: fixed;
+  overflow: scroll;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 111;
+}
+.mobile-link {
+  list-style: none;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  font-family: "TomatoGrotesk-m";
+}
+.mobile-sub-link {
+  list-style: none;
+  font-size: 16px;
+  padding: 10px 40px;
+  margin-bottom: 5px;
+  font-family: "TomatoGrotesk-r";
+}
+.mobile-link:hover,
+.mobile-sub-link:hover {
+  background: var(--color-blue-light);
+}
+.close-mobile-nav {
+  position: relative;
+  width: 25px;
+}
+.close-mobile-nav span {
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 5px;
+}
+.mobile-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-mobile-nav span:first-child {
+  transform: rotate(-45deg);
+}
+.close-mobile-nav span:last-child {
+  transform: rotate(45deg);
 }
 .mobile-navigation {
   display: block;
@@ -21,7 +80,7 @@
 
 @media screen and (min-width: 768px) {
   .navigation-container {
-    padding: 28px 30px;
+    padding: 28px 20px;
   }
   .mobile-navigation {
     display: none;
