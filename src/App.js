@@ -1,4 +1,3 @@
-import "./App.css";
 import AssetClasses from "./components/AssetClasses/AssetClasses";
 import Community from "./components/Community/Community";
 import CTA from "./components/CTA/CTA";
