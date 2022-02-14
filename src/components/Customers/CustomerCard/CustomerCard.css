@@ -40,7 +40,7 @@
     justify-content: space-between;
   }
   .customer-comment {
-    text-align: flex-start;
+    text-align: start;
   }
   .customer-info {
     flex-direction: row;
