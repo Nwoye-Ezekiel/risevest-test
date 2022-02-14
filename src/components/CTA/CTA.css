@@ -22,7 +22,7 @@
   line-height: 24px;
   color: var(--color-primary);
   margin-bottom: 20px;
-  font-weight: 500;
+  font-family: "TomatoGrotesk-m";
 }
 .CTA-container h3 {
   font-size: 20px;

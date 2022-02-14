@@ -15,7 +15,7 @@
   align-items: center;
 }
 .customers-container h1 {
-  font-weight: 600;
+  font-family: "TomatoGrotesk-m";
   font-size: 32px;
   text-align: center;
   color: var(--color-primary-light);
