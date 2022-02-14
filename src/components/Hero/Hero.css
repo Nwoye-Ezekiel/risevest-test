@@ -17,10 +17,11 @@
   max-width: 450px;
 }
 .hero-content h2 {
-  font-size: 40px;
+  font-size: 39px;
   text-align: center;
   color: var(--color-primary);
   margin-bottom: 32px;
+  margin-left: -6px;
 }
 .hero-content h2 span {
   position: relative;
@@ -32,7 +33,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: var(--color-blue);
+  background: var(--color-primary);
   top: 16px;
   right: -15px;
 }
@@ -81,6 +82,9 @@
     margin-bottom: 0;
     width: 55%;
     max-width: none;
+  }
+  .hero-content h2 {
+    margin-left: 0;
   }
   .hero-content h2 span::after {
     top: 22px;
