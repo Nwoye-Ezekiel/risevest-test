@@ -8,7 +8,9 @@ export default function Hero() {
   return (
     <div className="hero-container">
       <div className="hero-content">
-        <h2>Dollar investments that help you grow</h2>
+        <h2>
+          Dollar investments that help you <span>grow</span>
+        </h2>
         <p>
           We put your money in high quality assets that help you build wealth
           and achieve your financial goals.
