@@ -40,8 +40,8 @@ This is a technical assessment by Risevest which is to implement the landing pag
 
 #### References
 
-- RiseVest Landing Page [Figma] Design.
-- RiseVest [Website].
+- Risevest Landing Page [Figma] Design.
+- Risevest [Website].
 
 [create react app]: https://create-react-app.dev
 [netlify]: https://www.netlify.com/
