@@ -31,12 +31,6 @@ if your browser doesn't open by default after loading, open your browser and typ
 
 You are free to tweak the code to fit your own taste!
 
-You can quickly do so by running this command on your terminal to open your code editor
-
-```sh
-code .
-```
-
 You can as well view the project which is hosted on [Netlify] by clicking on this link
 [RiseVest Clone]
 
