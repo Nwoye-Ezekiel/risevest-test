@@ -42,7 +42,7 @@ You can as well view the project which is hosted on [Netlify] by clicking on thi
 
 # Project overwiew
 
-Rise Vest gave me this project as part of their screening process as a frontend coding exam. With the Figma design URL provided, I developed the RiseVest landing page. I made every effort to ensure that the implementation was as pixel-perfect as possible. It has animations, is mobile and desktop responsive, and has a functional mobile navigation menu, among other things. It was an intriguing experience for me because I had to push myself to produce outstanding work while also meeting the deadline.
+This is a technical assessment by Risevest which is to implement the landing page of the company. I ensured that the implementation was as pixel-perfect as possible. It has animations, is mobile and desktop responsive, and has a functional mobile navigation menu, among other things. It was an intriguing experience for me because I had to push myself to produce an outstanding work while also meeting the deadline.
 
 #### References
 
